@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/"
+    style="@style/Base.TextAppearance.AppCompat.Body1"
+    android:background="#ffaebc">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Would you rather...                                                                          be hit by a truck or fall off a hundred foot building? "
+        android:id="@+id/textView"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hit by a truck"
+        android:id="@+id/truck"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/building"
+        android:layout_alignEnd="@+id/building"
+        android:background="#ff5500" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fall off a hundred foot building"
+        android:id="@+id/building"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"
+        android:background="#7000ff" />
+</RelativeLayout>
