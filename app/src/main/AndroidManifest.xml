@@ -16,6 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Truck"
+            android:label="@string/title_activity_truck"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Cliff"
+            android:label="@string/title_activity_cliff"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="MainActivity" />
+        </activity>
+
     </application>
 
 </manifest>

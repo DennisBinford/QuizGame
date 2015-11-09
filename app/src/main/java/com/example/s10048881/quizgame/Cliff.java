@@ -1,39 +1,23 @@
 package com.example.s10048881.quizgame;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-public class MainActivity extends AppCompatActivity {
+public class Cliff extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);}
-
-    static String tag = "com.example.jchuah.myapplication.MainActivity";
-
-    public void onTruckClick (View source) {
-        Log.i(tag, "Launching Truck");
-        Intent TruckIntent = new Intent(this, Truck.class);
-        startActivity(TruckIntent);
+        setContentView(R.layout.activity_cliff);
     }
 
-    public void onCliffClick (View source) {
-        Log.i(tag, "Launching Truck");
-        Intent CliffIntent = new Intent(this,Cliff.class);
-        startActivity(CliffIntent);
-
-    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_cliff, menu);
         return true;
     }
 
