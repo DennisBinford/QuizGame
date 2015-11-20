@@ -105,6 +105,38 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.s10048881.quizgame.Activity5" />
         </activity>
+        <activity
+            android:name=".BoyMale"
+            android:label="@string/title_activity_boy_male"
+            android:parentActivityName=".Boy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Boy" />
+        </activity>
+        <activity
+            android:name=".BoyFemale"
+            android:label="@string/title_activity_boy_female"
+            android:parentActivityName=".Boy" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Boy" />
+        </activity>
+        <activity
+            android:name=".GirlMale"
+            android:label="@string/title_activity_girl_male"
+            android:parentActivityName=".Girl" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Girl" />
+        </activity>
+        <activity
+            android:name=".GirlFemale"
+            android:label="@string/title_activity_girl_female"
+            android:parentActivityName=".Girl" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Girl" />
+        </activity>
     </application>
 
 </manifest>

@@ -19,4 +19,8 @@
     <string name="title_activity_5">Activity5</string>
     <string name="title_activity_girl">Girl</string>
     <string name="title_activity_boy">Boy</string>
+    <string name="title_activity_boy_male">BoyMale</string>
+    <string name="title_activity_boy_female">BoyFemale</string>
+    <string name="title_activity_girl_male">GirlMale</string>
+    <string name="title_activity_girl_female">GirlFemale</string>
 </resources>
