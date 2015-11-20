@@ -29,7 +29,26 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="MainActivity" />
         </activity>
-
+        <activity
+            android:name=".Activity2"
+            android:label="@string/title_activity_2" >
+        </activity>
+        <activity
+            android:name=".Eternity"
+            android:label="@string/title_activity_eternity"
+            android:parentActivityName=".Activity2" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Activity2" />
+        </activity>
+        <activity
+            android:name=".Activity3"
+            android:label="@string/title_activity_3" >
+        </activity>
+        <activity
+            android:name=".Die"
+            android:label="@string/title_activity_die" >
+        </activity>
     </application>
 
 </manifest>

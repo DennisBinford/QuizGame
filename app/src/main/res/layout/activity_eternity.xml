@@ -4,37 +4,38 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.s10048881.quizgame.Truck">
+    tools:context="com.example.s10048881.quizgame.Eternity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Getting hit by a truck is..."
-        android:id="@+id/textView2"
+        android:text="Staying in prison for eternity is..."
+        android:id="@+id/textView9"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        style="@style/Base.TextAppearance.AppCompat.Display1"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        style="@style/Base.TextAppearance.AppCompat.Display1" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="FUN!!!"
-        android:id="@+id/textView4"
-        android:layout_below="@+id/textView2"
+        android:text="BORING"
+        android:id="@+id/textView10"
+        android:layout_below="@+id/textView9"
         android:layout_centerHorizontal="true"
-        android:textStyle="bold"
         style="@style/Base.TextAppearance.AppCompat.Display1"
-        android:textColor="#00FF00" />
+        android:textStyle="bold"
+        android:textColor="#0000FF" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Yay!"
-        android:id="@+id/Question2"
-        android:layout_below="@+id/textView4"
+        android:text="BORRRRRIIINNNGGG!!!"
+        android:id="@+id/button4"
+        android:layout_below="@+id/textView10"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="82dp"
-        android:textColor="#00FF00"
-        android:onClick="onYayClick" />
+        android:layout_marginTop="142dp"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        android:onClick="onEternityClick" />
 </RelativeLayout>

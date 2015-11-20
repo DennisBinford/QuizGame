@@ -1,6 +1,5 @@
 package com.example.s10048881.quizgame;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,26 +8,26 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-
-public class Cliff extends AppCompatActivity {
+public class Die extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cliff);}
+        setContentView(R.layout.activity_die);
+    }
 
-    static String tag = "com.example.jchuah.myapplication.Cliff";
+    static String tag = "com.example.jchuah.myapplication.Die";
 
-    public void onBooClick (View source) {
-        Log.i(tag, "Boo!");
-        Intent booIntent = new Intent(this, Activity2.class);
-        startActivity(booIntent);
+    public void onDeathClick (View source) {
+        Log.i(tag, "Die!");
+        Intent DeathIntent = new Intent(this, Activity3.class);
+        startActivity(DeathIntent);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_cliff, menu);
+        getMenuInflater().inflate(R.menu.menu_die, menu);
         return true;
     }
 

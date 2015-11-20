@@ -1,9 +1,12 @@
 package com.example.s10048881.quizgame;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Truck extends AppCompatActivity {
 
@@ -13,6 +16,13 @@ public class Truck extends AppCompatActivity {
         setContentView(R.layout.activity_truck);
     }
 
+    static String tag = "com.example.jchuah.myapplication.Truck";
+
+    public void onYayClick (View source){
+        Log.i(tag, "Yay!");
+        Intent YayIntent = new Intent(this, Activity2.class);
+        startActivity(YayIntent);
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
