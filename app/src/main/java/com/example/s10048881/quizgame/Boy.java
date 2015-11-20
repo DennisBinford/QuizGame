@@ -1,9 +1,12 @@
 package com.example.s10048881.quizgame;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class Boy extends AppCompatActivity {
 
@@ -11,6 +14,20 @@ public class Boy extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_boy);
+    }
+
+    static String tag = "com.example.jchuah.myapplication.Boy";
+
+    public void onBoyMaleClick (View source) {
+        Log.i(tag, "Males FTW!");
+        Intent BoyMaleIntent = new Intent(this, BoyMale.class);
+        startActivity(BoyMaleIntent);
+    }
+
+    public void onBoyFemaleClick (View source) {
+        Log.i(tag, "Females BOO!");
+        Intent BoyFemaleClick = new Intent(this, BoyFemale.class);
+        startActivity(BoyFemaleClick);
     }
 
     @Override
