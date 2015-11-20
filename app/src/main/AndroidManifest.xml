@@ -49,6 +49,42 @@
             android:name=".Die"
             android:label="@string/title_activity_die" >
         </activity>
+        <activity
+            android:name=".Mansion"
+            android:label="@string/title_activity_mansion"
+            android:parentActivityName=".Activity3" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Activity3" />
+        </activity>
+        <activity
+            android:name=".Paranormal"
+            android:label="@string/title_activity_paranormal"
+            android:parentActivityName=".Activity3" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Activity3" />
+        </activity>
+        <activity
+            android:name=".Activity4"
+            android:label="@string/title_activity_4" >
+        </activity>
+        <activity
+            android:name=".Mom"
+            android:label="@string/title_activity_mom"
+            android:parentActivityName=".Activity4" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Activity4" />
+        </activity>
+        <activity
+            android:name=".Dad"
+            android:label="@string/title_activity_dad"
+            android:parentActivityName=".Activity4" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Activity4" />
+        </activity>
     </application>
 
 </manifest>

@@ -8,32 +8,26 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Activity3 extends AppCompatActivity {
+public class Mansion extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_3);
+        setContentView(R.layout.activity_mansion);
     }
 
-    static String tag = "com.example.jchuah.myapplication.Activity3";
+    static String tag = "com.example.jchuah.myapplication.Mansion";
 
-    public void onMansionClick (View source) {
-        Log.i(tag, "Haunted!");
-        Intent MansionIntent = new Intent(this, Mansion.class);
-        startActivity(MansionIntent);
-    }
-
-    public void onParanormalClick (View source) {
-        Log.i(tag, "Paranormal!");
-        Intent ParanormalIntent = new Intent(this,Paranormal.class);
-        startActivity(ParanormalIntent);
+    public void onSpookyClick (View source) {
+        Log.i(tag, "SPOOOKY!!!");
+        Intent SpookyIntnet = new Intent(this, Activity4.class);
+        startActivity(SpookyIntnet);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_activity3, menu);
+        getMenuInflater().inflate(R.menu.menu_mansion, menu);
         return true;
     }
 

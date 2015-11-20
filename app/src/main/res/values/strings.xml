@@ -11,4 +11,9 @@
     <string name="title_activity_eternity">Eternity</string>
     <string name="title_activity_3">Activity3</string>
     <string name="title_activity_die">Die</string>
+    <string name="title_activity_mansion">Mansion</string>
+    <string name="title_activity_paranormal">Paranormal</string>
+    <string name="title_activity_4">Activity4</string>
+    <string name="title_activity_mom">Mom</string>
+    <string name="title_activity_dad">Dad</string>
 </resources>

@@ -4,13 +4,13 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.s10048881.quizgame.Activity3">
+    tools:context="com.example.s10048881.quizgame.Activity4">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Would you rather..."
-        android:id="@+id/textView11"
+        android:id="@+id/textView13"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -20,9 +20,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Live in a haunted mansion alone for one day or watch paranormal activity in a dark and silent room?"
-        android:id="@+id/textView12"
-        android:layout_below="@+id/textView11"
+        android:text="have your dad die or your mom die?"
+        android:id="@+id/textView16"
+        android:layout_below="@+id/textView13"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textStyle="bold"
@@ -31,26 +31,24 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Live in a haunted mansion alone for one day"
-        android:id="@+id/button6"
-        android:layout_below="@+id/textView12"
+        android:text="My mom die"
+        android:id="@+id/button10"
+        android:layout_below="@+id/textView16"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="98dp"
-        android:textStyle="bold"
-        android:layout_alignRight="@+id/button7"
-        android:layout_alignEnd="@+id/button7"
-        android:onClick="onMansionClick" />
+        android:layout_marginTop="144dp"
+        android:textStyle="bold" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Watch paranormal activity in a dark and silent room"
-        android:id="@+id/button7"
+        android:text="My dad die"
+        android:id="@+id/button11"
+        android:layout_marginBottom="218dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="148dp"
-        android:onClick="onParanormalClick"
+        android:layout_alignRight="@+id/button10"
+        android:layout_alignEnd="@+id/button10"
         android:textStyle="bold" />
 </RelativeLayout>

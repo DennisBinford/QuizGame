@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="stay in prison for eternity or die out of prison"
+        android:text="stay in prison for eternity or die out of prison?"
         android:id="@+id/textView8"
         android:layout_below="@+id/textView7"
         android:layout_alignParentLeft="true"

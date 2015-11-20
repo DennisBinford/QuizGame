@@ -1,5 +1,6 @@
 package com.example.s10048881.quizgame;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -8,32 +9,26 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Activity3 extends AppCompatActivity {
+public class Paranormal extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_3);
+        setContentView(R.layout.activity_paranormal);
     }
 
-    static String tag = "com.example.jchuah.myapplication.Activity3";
-
-    public void onMansionClick (View source) {
-        Log.i(tag, "Haunted!");
-        Intent MansionIntent = new Intent(this, Mansion.class);
-        startActivity(MansionIntent);
-    }
+    static String tag = "com.example.jchuah.myapplication.Paranormal";
 
     public void onParanormalClick (View source) {
         Log.i(tag, "Paranormal!");
-        Intent ParanormalIntent = new Intent(this,Paranormal.class);
+        Intent ParanormalIntent = new Intent(this, Activity4.class);
         startActivity(ParanormalIntent);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_activity3, menu);
+        getMenuInflater().inflate(R.menu.menu_paranormal, menu);
         return true;
     }
 

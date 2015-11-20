@@ -4,18 +4,27 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.s10048881.quizgame.Die"
-    android:id="@+id/hey2"
-    android:onClick="onDeathClick">
+    tools:context="com.example.s10048881.quizgame.Mansion">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Death!"
-        android:id="@+id/button5"
+        android:text="SPOOOOOOOKY!!!"
+        android:id="@+id/button8"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="117dp"
+        android:layout_marginBottom="235dp"
+        android:textStyle="bold"
+        android:textColor="#800080"
+        android:onClick="onSpookyClick" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Haunted Mansions are..."
+        android:id="@+id/textView14"
         android:layout_centerVertical="true"
-        android:onClick="onDeathClick"
+        android:layout_centerHorizontal="true"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
         android:textStyle="bold" />
 </RelativeLayout>
