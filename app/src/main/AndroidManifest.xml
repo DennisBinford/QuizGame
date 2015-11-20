@@ -85,6 +85,26 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.s10048881.quizgame.Activity4" />
         </activity>
+        <activity
+            android:name=".Activity5"
+            android:label="@string/title_activity_5" >
+        </activity>
+        <activity
+            android:name=".Girl"
+            android:label="@string/title_activity_girl"
+            android:parentActivityName=".Activity5" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Activity5" />
+        </activity>
+        <activity
+            android:name=".Boy"
+            android:label="@string/title_activity_boy"
+            android:parentActivityName=".Activity5" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.s10048881.quizgame.Activity5" />
+        </activity>
     </application>
 
 </manifest>

@@ -4,58 +4,51 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.s10048881.quizgame.Activity4"
-    android:background="#FFFFFF"
-    android:backgroundTint="#FFFFFF"
-    android:backgroundTintMode="screen"
-    android:foregroundTintMode="screen">
+    tools:context="com.example.s10048881.quizgame.Activity5">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Would you rather..."
-        android:id="@+id/textView13"
+        android:id="@+id/textView17"
         android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        style="@style/Base.TextAppearance.AppCompat.Display1"
-        android:textStyle="bold" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="have your dad die or your mom die?"
-        android:id="@+id/textView16"
-        android:layout_below="@+id/textView13"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:textStyle="bold"
         style="@style/Base.TextAppearance.AppCompat.Display1" />
 
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My mom die"
-        android:id="@+id/button10"
-        android:layout_below="@+id/textView16"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="144dp"
+        android:text="be a girl or be a boy"
+        android:id="@+id/textView18"
+        style="@style/Base.TextAppearance.AppCompat.Display1"
         android:textStyle="bold"
-        android:onClick="onMomClick" />
+        android:layout_below="@+id/textView17"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="My dad die"
-        android:id="@+id/button11"
-        android:layout_marginBottom="218dp"
+        android:text="be a boy"
+        android:id="@+id/button12"
+        android:layout_marginTop="157dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView18"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onBoyClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="be a girl"
+        android:id="@+id/button13"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/button10"
-        android:layout_alignEnd="@+id/button10"
+        android:layout_marginBottom="211dp"
         android:textStyle="bold"
-        android:onClick="onDadClick" />
-
+        android:onClick="onGirlClick" />
 </RelativeLayout>

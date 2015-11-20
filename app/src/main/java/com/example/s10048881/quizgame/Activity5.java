@@ -8,26 +8,31 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class Mom extends AppCompatActivity {
+public class Activity5 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mom);
+        setContentView(R.layout.activity_5);
+    }
+    static String tag = "com.example.jchuah.myapplication.Activity5";
+
+    public void onBoyClick (View source) {
+        Log.i(tag, "WE RULE!!!");
+        Intent BoyIntent = new Intent(this, Boy.class) ;
+        startActivity(BoyIntent);
     }
 
-    static String tag = "com.example.jchuah.myapplication.Mom";
-
-    public void onMOMClick (View source) {
-        Log.i(tag, "MOM!!!");
-        Intent MOMIntent = new Intent(this, Activity5.class);
-        startActivity(MOMIntent);
+    public void onGirlClick (View source) {
+        Log.i(tag, "WE RULE!!!");
+        Intent GirlIntent = new Intent(this, Girl.class) ;
+        startActivity(GirlIntent);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_mom, menu);
+        getMenuInflater().inflate(R.menu.menu_activity5, menu);
         return true;
     }
 

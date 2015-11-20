@@ -16,4 +16,7 @@
     <string name="title_activity_4">Activity4</string>
     <string name="title_activity_mom">Mom</string>
     <string name="title_activity_dad">Dad</string>
+    <string name="title_activity_5">Activity5</string>
+    <string name="title_activity_girl">Girl</string>
+    <string name="title_activity_boy">Boy</string>
 </resources>
